@@ -1,0 +1,1 @@
+This bug demonstrates a NullPointerException that can occur in Scala when a null value is passed to a generic method that is designed to handle nulls.  The issue is that the compiler does not always infer the correct null handling behavior for generic types.  The solution shows a correct way to handle the null check.
